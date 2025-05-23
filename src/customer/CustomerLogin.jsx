@@ -78,14 +78,28 @@ export default function CustomerLogin() {
            <a href="/adminlogin" className="hero-btn10">Admin</a>
             <a href="/ManagerLogin" className="hero-btn10">Manager Login</a>
 
+
+  <p>
+    📧 Email :   
+    <a href="mailto:hemanthh.hh7788@gmail.com">  Contact Admin</a>
+  </p>
+
         <button type="submit" className="customer-submit-btn">Login</button>
       </form>
 
-      <section id="testimonials">
-        <h3>What Our Customers Say</h3>
-        <blockquote>"This platform is amazing! Booking tickets is so easy!"</blockquote>
-        <cite>- Rahul Sharma</cite>
-      </section>
+<section id="testimonials">
+  {/* <h3>Contact Admin</h3> */}
+  <blockquote>"Contact our admin team To Create Manager Profile, reach out via email below:"</blockquote>
+  
+  <p>
+    📧 Email :   
+    <a href="mailto:hemanthh.hh7788@gmail.com">  Contact Admin</a>
+  </p>
+  <br />
+  <cite>- Admin Team</cite>
+</section>
+
+
 
     </div>
   );

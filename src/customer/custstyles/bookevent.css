@@ -1,0 +1,87 @@
+/* customer.css */
+
+.unique-booking-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f4f8fb;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unique-booking-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.unique-booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.unique-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.unique-form-group label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.unique-booking-input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.unique-booking-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.unique-submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.unique-booking-submit-btn {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.unique-booking-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+  .unique-booking-container {
+    padding: 20px;
+  }
+
+  .unique-booking-title {
+    font-size: 24px;
+  }
+
+  .unique-booking-submit-btn {
+    width: 100%;
+  }
+}

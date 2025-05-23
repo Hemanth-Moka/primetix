@@ -48,9 +48,26 @@ const Home = () => {
             <p>Movie Title</p>
           </div>
           <div className="item">
-            <img src="https://img.freepik.com/free-photo/black-silhouettes-music-concert-poster-concept_1194-617147.jpg?semt=ais_hybrid&w=740" alt="Concert" />
+            <img src="https://images.stockcake.com/public/6/6/f/66f13779-0e3f-4ee8-a98e-85920f40c232_large/live-concert-energy-stockcake.jpg" alt="Concert" />
             <p>Live Concert</p>
           </div>
+          <div className="item">
+            <img src="https://preview.redd.it/which-tier-2-3-movie-are-you-excited-for-this-year-v0-v61stp9oqgie1.jpg?width=640&crop=smart&auto=webp&s=7715b6add2bda79565b2a8fd23fe8fdde90430d1" alt="HIT 3" />
+            <p>HiT Third case</p>
+          </div>
+          <div className="item">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Kingdom_2025_Film_Poster.jpg" alt="Concert" />
+            <p>Kingdom</p>
+          </div>
+          <div className="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFXXUI4A2IDxh5qnWebhL8TIoFZ5n6NlFLBQ&s" alt="Concert" />
+            <p>Stand Up Comedy</p>
+          </div>
+          <div className="item">
+            <img src="https://media.istockphoto.com/id/1201711320/vector/indian-festival-of-colors-happy-holi-celebration-holi-club-party-of-colors-can-use-for.jpg?s=612x612&w=0&k=20&c=rh0ltoD-JwL1GJnuCXQcedeGFhB6gQkGV4Qn04TlMM4=" alt="Concert" />
+            <p> Culturals</p>
+          </div>
+          
         </div>
       </section>
 

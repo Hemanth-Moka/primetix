@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import config from '../config';
-import './customer.css';
+import './custstyles/bookevent.css';
 
 export default function BookEvent() {
   const location = useLocation();
@@ -29,7 +29,7 @@ export default function BookEvent() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({...formData, [name]: value});
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
@@ -51,6 +51,11 @@ export default function BookEvent() {
 
       if (response.ok) {
         alert("Event booked successfully!");
+
+        // Open payment link in new tab
+        window.open("https://payments-test.cashfree.com/links?code=U8hj8m139t9g", "_blank");
+
+        // Navigate to booked events page
         navigate('/bookedevents');
       } else {
         alert("Failed to book event.");
@@ -99,12 +104,12 @@ export default function BookEvent() {
             required
           />
         </div>
-<div className="unique-submit-container">
-  <a href="https://payments-test.cashfree.com/links?code=U8hj8m139t9g" target="_blank" rel="noopener noreferrer">
-    <button type="button" className="unique-booking-submit-btn">Confirm Booking</button>
-  </a>
-</div>
 
+        <div className="unique-submit-container">
+          <button type="submit" className="unique-booking-submit-btn">
+            Confirm Booking
+          </button>
+        </div>
       </form>
     </div>
   );

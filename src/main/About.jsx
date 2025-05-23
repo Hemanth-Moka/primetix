@@ -13,11 +13,11 @@ export default function About() {
       </section>
 
       <section id="description" className="bg-slate-100 py-12 text-center">
-        <p className="text-lg text-slate-700 mb-4 max-w-2xl mx-auto">
+        <h2 className="text-lg text-slate-700 mb-4 max-w-2xl mx-auto">
           We provide an easy and secure way to book your favorite tickets online.
-        </p>
+        </h2>
         <p className="text-lg text-slate-700 max-w-2xl mx-auto">
-          Enjoy a seamless experience with multiple payment options and instant e-tickets.
+          experience with multiple payment options and instant e-tickets.
         </p>
       </section>
     </div>

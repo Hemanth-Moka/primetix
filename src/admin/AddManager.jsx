@@ -10,7 +10,6 @@ export default function AddManager() {
     dob: '',
     email: '',
     username: '',
-    password: '',
     mobileno: '',
     company_name: '',
     company_location: ''
@@ -57,7 +56,7 @@ export default function AddManager() {
 
   return (
     <div className="unique-manager-form-container">
-      <h3 className="unique-manager-form-title">Add Event Manager</h3>
+      <h3 className="unique-manager-form-title">Add user </h3>
       {
         message ?
           <p className="unique-success-message">{message}</p> :

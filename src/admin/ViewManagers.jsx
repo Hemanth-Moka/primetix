@@ -22,12 +22,12 @@ export default function ViewManagers() {
 
     return (
         <div className="container">
-            <h3 className="heading">View All Event Managers</h3>
+            <h3 className="heading">View All Users</h3>
 
             {error ? (
                 <p className="error-message">{error}</p>
             ) : managers.length === 0 ? (
-                <p className="error-message">No Event Managers Data Found</p>
+                <p className="error-message">No Data Found</p>
             ) : (
                 <table className="manager-table">
                     <thead>

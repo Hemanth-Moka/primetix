@@ -1,6 +1,6 @@
 const config = 
 {
-    "url":"http://localhost:2525"
+    "url":"http://localhost:2030/jenkinsfullstack"
 }
 
 export default config

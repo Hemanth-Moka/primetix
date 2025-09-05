@@ -19,13 +19,13 @@ export default function AdminNavBar()
   return (
     <div>
       <nav className="navbar">
-        <div className="logo">Welcome Admin</div>
+        <div className="logo">Jenkins Full Stack</div>
         <ul className="nav-links">
-          <li><Link to="/adminhome">Home</Link></li>
-          <li><Link to="/addeventmanager">Add Event Managers</Link></li>
-          <li><Link to="/viewmanagers">View Event Managers</Link></li>
-          <li><Link to="/viewallcustomers">View All Customers</Link></li>
-          <li><Link to="/adminlogin" onClick={handleLogout}>Logout</Link></li>
+          {/* <li><Link to="/adminhome">Home</Link></li> */}
+          <li><Link to="/addeventmanager">Add users </Link></li>
+          <li><Link to="/viewmanagers">View users</Link></li>
+          {/* <li><Link to="/viewallcustomers">View All Customers</Link></li>
+          <li><Link to="/adminlogin" onClick={handleLogout}>Logout</Link></li> */}
         </ul>
       </nav>
 
